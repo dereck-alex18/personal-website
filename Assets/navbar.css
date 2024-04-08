@@ -5,11 +5,16 @@ header{
     padding: 25px;
     border-bottom: 1px solid #fafafa;
     color: #fafafa;
+    position: sticky;
+    top: 0px;
+    background-color: #222;
 }
 
 .logo{
     margin-right: auto;
     cursor: pointer;
+    text-decoration: none;
+    color: #fafafa;
 }
 
 header nav ul{
@@ -31,5 +36,5 @@ header nav ul li{
 .nav-links:hover{
     background-color: #fafafa;
     transition: all 0.4s ease;
-    color: #344a72;
+    color: #333;
 }

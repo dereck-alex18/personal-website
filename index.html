@@ -5,26 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Assets/base-styling.css" />
     <link rel="stylesheet" href="./Assets/navbar.css" />
+    <link rel="stylesheet" href="./Assets/about.css" />
+    <link rel="stylesheet" href="./Assets/skills.css" />
+    <link rel="stylesheet" href="./Assets/contact.css" />
     <title>Dereck portela</title>
   </head>
   <body>
     <header>
-      <h1 class="logo">DAEP</h1>
+      <a class="logo" href="#about-section"><h1>DAEP</h1></a>
       <nav>
         <ul>
-          <li><a href="#" class="nav-links">About</a></li>
-          <li><a href="#" class="nav-links">Skills</a></li>
-          <li><a href="#" class="nav-links">Contact</a></li>
+          <li><a href="#about-section" class="nav-links">About</a></li>
+          <li><a href="#skills-section" class="nav-links">Skills</a></li>
+          <li><a href="#contact-section" class="nav-links">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container">
-      <section class="about">
+      <section id="about-section" class="about">
         <div class="profile-picture"></div>
         <div class="about-text">
-          <p></p>
+          <h2>About Me</h2>
+          <p>
+            Hello, my name is Dereck and I've been in tecknology since when I
+            was a kid. Majored in Electronic Engineering in 2017 at University
+            of Pernambuco (UPE) and currently studying System Development at
+            CESAR School. At the moment, I'm working as Software Test Engineer
+            at CI&T.
+          </p>
         </div>
+      </section>
+
+      <section class="more-about-text">
+        <h2>More About Me</h2>
+        <p>
+          My journey started in 2016 when I got my first inter an intern of
+          Embedded System Development at Recife City Hall. After that I joined a
+          summer job at CESAR, a company from Recife witch is technology and
+          innovation reference. Due to my performance there, I could land my
+          first internship with Software Testing. Spent almost one year as a
+          Software Tester intern at CESAR, I move to Autria due to Personal
+          Reasons. In 2019 I returned to Brazil and landed a job as a QA at MV,
+          a company from Recife that works with health technology. There I could
+          have my frist automation touch involving testing a mobile application.
+          Then, after about 10 months, joinedliferay where I could work with
+          manual, automation and also trainning new team members. After that, I
+          had an opportunity to work at CESAR again. In this second time at the
+          compaby I could have a strong development in my career, participating
+          in choosing the best framework to start an E2E automation, learned how
+          to automate in another layers instead of only E2E, started to review
+          PRs along with the Dev team and so on. Currently, I'm seeking to
+          improve my hard and softskills and maybe in the future, explore
+          different areas in the IT world.
+        </p>
+        <p>
+          Apart from my professional life, I'm a Perfume enthusiast onwing
+          different fragrance in my collection even those that are no longer
+          manufactured. Love playing video-games in my free time, spending time
+          watching movies and videos on Youtube with my girlfriend and,
+          sometimes, hanging out with my friends at a bar or something similar.
+          To sum up, I'm passionated about learning new things and always
+          looking forward to starting new challenges.
+        </p>
+      </section>
+
+      <section id="skills-section" class="skills">
+        <h1>My top Skills</h1>
+        <div class="image-grid">
+          <img src="./Assets/img/automation.png" alt="Test Automation Image" />
+          <img src="./Assets/img/JS.png" alt="Javascript image" />
+          <img src="./Assets/img/typescript.png" alt="Typescript image" />
+          <img src="./Assets/img/playwright.png" alt="Playwright image" />
+          <img src="./Assets/img/git.png" alt="Git image" />
+          <img
+            src="./Assets/img/software-testing.png"
+            alt="Software Testing image"
+          />
+        </div>
+      </section>
+
+      <section id="contact-section" class="contact">
+        <form action="">
+          <h1>Contact</h1>
+          <p>Feel free to get in touch with me!</p>
+
+          <div class="from-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" />
+          </div>
+          <div class="from-group">
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+          <div class="from-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="from-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="60" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+          <p class="bottom-text">
+            Check out my Linkedin and Github!
+            <div class="social-networks-icons">
+              <a target="_blank" href="https://www.linkedin.com/in/dereck-portela-36682675/"><img src="./Assets/icons/linkedin.png" alt="Linkedin Icon"></a> 
+              <a target="_blank" href="https://github.com/dereck-alex18"><img src="./Assets/icons/github.png" alt="Github Icon"></a>
+            </div>
+          </p>
+        </form>
       </section>
     </main>
   </body>

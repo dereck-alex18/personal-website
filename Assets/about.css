@@ -1,0 +1,54 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.profile-picture{
+    height: 350px;
+    width: 350px;
+    background-image: url("./img/myself.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 100%;
+    margin-left: auto;
+}
+
+.about-text h2{
+    margin-bottom: 20px;
+}
+
+.about-text{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: 15px;
+    text-align: left;
+    color: #fafafa;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    padding: 25px;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 2px #fafafa;
+}
+
+
+.more-about-text h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.more-about-text{
+    text-align: justify;
+    color: #fafafa;
+    max-width: 75%;
+    margin: 4rem auto;
+    padding: 20px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+

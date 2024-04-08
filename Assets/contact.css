@@ -1,0 +1,53 @@
+.contact{
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.contact p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.from-group label, input, textarea{
+    width: 60%;
+    margin-bottom: 10x;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 15px;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.2s ease;
+}
+
+.btn:hover{
+    background-color: #00a984;
+    transition: all 0.2s ease;
+    color: #fff;
+}
+
+.social-networks-icons img{
+    width: 80px;
+    margin: 10px;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 100%;
+}
